@@ -1,16 +1,14 @@
+import { Routes, Route } from 'react-router-dom';
+import Characters from 'pages/Characters/Characters';
+import CharacterDetails from 'pages/CharacterDetails';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <>
+      <Routes>
+        <Route index element={<Characters />} />
+        <Route path="/:id" element={<CharacterDetails />} />
+      </Routes>
+    </>
   );
 };

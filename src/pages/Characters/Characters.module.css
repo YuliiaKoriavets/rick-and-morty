@@ -1,0 +1,32 @@
+.container{
+    margin: 0 auto;
+    padding-top: 92px;
+    padding-bottom: 223px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    width: 312px;
+    height: 104px;
+    margin-bottom: 32px;
+    background: url(/src/img/PngItem_438051\ 2.png);
+  }
+  
+
+@media (min-width: 1200px) {
+  .container {
+    padding-top: 86px;
+    padding-bottom: 188px;
+    width: 1020px;
+  }
+  .wrapper {
+    width: 600px;
+    height: 200px;
+    margin-bottom: 16px;
+    background: url(/src/img/PngItem_438051\ 1.png);
+  }
+  
+}
+
