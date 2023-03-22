@@ -14,7 +14,7 @@ export default function Characters() {
     return initialValue || '';
   });
   const [info, setInfo] = useState({});
-  const [page, setPage] = useState(0);
+  const [page, setPage] = useState(1);
   const location = useLocation();
 
   useEffect(() => {
