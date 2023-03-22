@@ -13,26 +13,14 @@
   border-radius: 4px;
 }
 
-@media (min-width: 1200px) {
-  .item {
-    width: 240px;
-  }
-}
-
 .link {
   text-decoration: none;
 }
 
-.image{
+.image {
   width: 312px;
   height: 232px;
-}
-
-@media (min-width: 1200px) {
-.image {
-  width: 240px;
-  height: 168px;
-}
+  object-fit: cover;
 }
 
 .name {
@@ -56,4 +44,15 @@
   line-height: 1.5;
   letter-spacing: 0.25px;
   color: rgba(0, 0, 0, 0.6);
+}
+
+@media (min-width: 1200px) {
+  .item {
+    width: 240px;
+  }
+  .image {
+    width: 240px;
+    height: 168px;
+    object-fit: cover;
+  }
 }

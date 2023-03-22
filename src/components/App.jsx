@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import Characters from 'pages/Characters/Characters';
-import CharacterDetails from 'pages/CharacterDetails';
+import CharacterDetails from 'pages/CharacterDetails/CharacterDetails';
 
 export const App = () => {
   return (

@@ -1,0 +1,25 @@
+.container {
+  margin: 0 auto;
+  padding-top: 27px;
+  padding-bottom: 85px;
+}
+
+.link_go_back {
+  margin-left: 28px;
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  font-family: 'Karla';
+  font-size: 18px;
+  line-height: 1.24;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    padding-top: 25px;
+    padding-bottom: 142px;
+  }
+  .link_go_back {
+    margin-left: 54px;
+  }
+}
